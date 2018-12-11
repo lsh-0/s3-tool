@@ -25,11 +25,11 @@ function download {
     echo "wrote $path"
 }
 
-function upload_file {
-    source_file=$1
-    destination_bucket=$2
+function upload {
+    destination_bucket=$1
+    source_file=$2
     aws s3 cp "$source_file" "s3://$destination_bucket/" --quiet
-    echo "upoloaded $source_file"
+    echo "uploaded $source_file"
 }
 
 venv
