@@ -13,7 +13,7 @@ function buckets {
     aws s3 ls
 }
 
-function contents {
+function list {
     bucket=$1
     aws s3 ls "$bucket" | tee last-listing.txt
 }
