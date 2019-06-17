@@ -1,0 +1,15 @@
+upload:
+2019-06-17 12:39:24     170496 ejp_query_tool_query_id_380_DataScience:_Early_Career_Researchers_2019_06_16_eLife.csv
+2019-06-17 12:39:25     107134 ejp_query_tool_query_id_489_DataScience:_Editor_Keywords_2019_06_16_eLife.csv
+2019-06-17 12:39:26     103401 ejp_query_tool_query_id_455_DataScience:_Editors_2019_06_16_eLife.csv
+2019-06-17 12:39:27      11702 ejp_query_tool_query_id_796_DataScience:_Person_merge_info_-_last_week_2019_06_16_eLife.csv
+2019-06-17 12:39:27     810124 ejp_query_tool_query_id_1158_DataScience:_Manuscript_Reviews_-_last_week_2019_06_16_eLife.csv
+2019-06-17 12:39:28     328177 ejp_query_tool_query_id_767_DataScience:_Person_Roles_2019_06_16_eLife.csv
+2019-06-17 12:39:31      29153 ejp_query_tool_query_id_705_DataScience:_Reviewer_identity_revealed_-_last_week_2019_06_16_eLife.csv
+2019-06-17 12:39:40      81441 ejp_query_tool_query_id_780_DataScience:_Reviewer_info_-_last_week_2019_06_16_eLife.csv
+
+in:
+elife-ejp-ftp
+
+to:
+staging-elife-data-pipeline/flows/ejp-csv-deposit/test
